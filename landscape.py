@@ -59,7 +59,7 @@ while running:
     pygame.draw.circle(screen, "white", (470, 45), 30)
     pygame.draw.circle(screen, "white", (420, 45), 30)
     
-    pygame.draw.rect(screen, (173, 216, 230), (400, 350, 120, 60))
+    pygame.draw.rect(screen, (173, 216, 230), (400, 350, 120, 60)) #This is a towel
 
     sun += 0.05
     sun_speed = 30 + int(10* math.sin(sun)) #30 is the radius
